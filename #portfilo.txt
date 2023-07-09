@@ -1,0 +1,101 @@
+#portfilo
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <style>
+        /* CSS styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #f4f4f4;
+            padding: 10px;
+        }
+
+        nav ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to My Portfolio</h2>
+        <p>This is a brief description of myself and my work.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a passionate web developer with experience in HTML, CSS, and JavaScript.</p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <p>Here are some of the projects I have worked on:</p>
+        <ul>
+            <li>Project 1</li>
+            <li>Project 2</li>
+            <li>Project 3</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>You can reach me at email@example.com or through the contact form below.</p>
+        <form>
+            <input type="text" placeholder="Name">
+            <br>
+            <input type="email" placeholder="Email">
+            <br>
+            <textarea placeholder="Message"></textarea>
+            <br>
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+</body>
+</html>
